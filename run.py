@@ -92,7 +92,7 @@ def load_config():
                         help='Path of dataset')
     parser.add_argument('-c', '--code-length', default=128, type=int,
                         help='Binary hash code length.(default: 64)')
-    parser.add_argument('-T', '--max-iter', default=600, type=int,
+    parser.add_argument('-T', '--max-iter', default=1000, type=int,
                         help='Number of iterations.(default: 150)')
     parser.add_argument('-l', '--lr', default=1e-3, type=float,
                         help='Learning rate.(default: 1e-3)')
